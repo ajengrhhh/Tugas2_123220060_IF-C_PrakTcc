@@ -1,0 +1,25 @@
+GET http://localhost:5001/api/notes
+
+###
+GET http://localhost:5001/api/notes/1
+
+###
+POST http://localhost:5001/api/notes
+Content-Type: application/json
+
+{
+  "title": "Belajar Node.js",
+  "content": "Hari ini belajar tentang Express dan Sequelize."
+}
+
+###
+PUT http://localhost:5001/api/notes/
+Content-Type: application/json
+
+{
+  "title": "hallo",
+  "content": "apasih"
+}
+
+###
+DELETE http://localhost:5001/api/notes/1
